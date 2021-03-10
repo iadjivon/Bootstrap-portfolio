@@ -491,6 +491,10 @@ section {
   font-size: 5em;
 }
 
+.skills .program-languages-skills i{
+  margin: 10px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -1022,6 +1026,8 @@ section {
 .contact .info {
   width: 100%;
   background: #fff;
+  display: flex;
+  flex-direction: row;
 }
 
 .contact .info i {
@@ -1053,8 +1059,10 @@ section {
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
-  margin-top: 40px;
+.contact .info .email, .contact .info .phone, .contact .info .address {
+  /* margin-top: 40px; */
+  padding: 50px;
+  margin:auto;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
